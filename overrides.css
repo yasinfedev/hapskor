@@ -1,0 +1,26 @@
+.app-header {
+  display: block;
+  padding: env(safe-area-inset-top) 0 0;
+}
+
+.header-inner {
+  width: min(100%, 760px);
+  height: 68px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 52px 1fr 70px;
+  align-items: center;
+}
+
+@media (min-width: 620px) {
+  .app-header {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  .header-inner {
+    padding: 0 1.5rem;
+    grid-template-columns: 70px 1fr 90px;
+  }
+}
