@@ -6,6 +6,8 @@ Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan kli
 
 Ana sayfaya kategori, hastalık ve skor adlarını tarayan canlı arama eklendi. Kategoriler Türkçe alfabetik sıralanır; kartlar farklı pastel tonlar ve klinik anlamı destekleyen Lucide ikonları kullanır. Tüm ikon dosyaları paketin içindedir ve internet bağlantısı gerektirmez.
 
+Sayfa altında geliştirici kredisi ve görüş/öneriler için e-posta bağlantısı bulunur.
+
 ## Sürüm 4
 
 PE yönetimine sPESI ve Hestia; sepsise NEWS2, qSOFA ve şok indeksi; atriyal fibrilasyona CHA₂DS₂-VASc ve HAS-BLED; karın ağrısına AIR, Alvarado ve BISAP; travmaya Canadian C-Spine, NEXUS ve Canadian CT Head Rule eklendi. Ayrıca Ottawa ayak/ayak bileği kuralları, Modifiye Centor, Glasgow Koma Skalası ve altı hızlı klinik hesaplama bulunur.

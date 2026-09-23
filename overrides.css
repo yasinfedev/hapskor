@@ -66,6 +66,39 @@
 .search-empty strong { color: var(--navy); }
 .search-empty span { font-size: .82rem; }
 
+.app-footer {
+  width: min(100%, 760px);
+  margin: .5rem auto 0;
+  padding: 1.25rem 1rem calc(1.25rem + env(safe-area-inset-bottom));
+  border-top: 1px solid rgba(18,60,86,.12);
+  color: var(--muted);
+  text-align: center;
+}
+
+.app-footer p {
+  margin: .3rem 0;
+  font-size: .76rem;
+  line-height: 1.55;
+}
+
+.app-footer .footer-quote {
+  margin-bottom: .55rem;
+  color: var(--navy);
+  font-size: .86rem;
+  font-weight: 750;
+}
+
+.app-footer a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 620px) {
+  .app-footer { padding-right: 1.5rem; padding-left: 1.5rem; }
+}
+
 @media (min-width: 620px) {
   .app-header {
     display: block;
