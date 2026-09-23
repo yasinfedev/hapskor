@@ -2,7 +2,11 @@
 
 Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan klinik skor hesaplayıcısı.
 
-## Sürüm 3
+## Sürüm 4
+
+PE yönetimine sPESI ve Hestia; sepsise NEWS2, qSOFA ve şok indeksi; atriyal fibrilasyona CHA₂DS₂-VASc ve HAS-BLED; karın ağrısına AIR, Alvarado ve BISAP; travmaya Canadian C-Spine, NEXUS ve Canadian CT Head Rule eklendi. Ayrıca Ottawa ayak/ayak bileği kuralları, Modifiye Centor, Glasgow Koma Skalası ve altı hızlı klinik hesaplama bulunur.
+
+## Sürüm 3 değişikliği
 
 Blatchford ve CURB-65 hesaplayıcıları hastane laboratuvar pratiğine uygun olarak BUN (mg/dL) girişiyle çalışır.
 
@@ -12,7 +16,7 @@ Blatchford ve CURB-65 hesaplayıcıları hastane laboratuvar pratiğine uygun ol
 
 ## İçerik
 
-Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT, Wells PE, PERC ve San Francisco Syncope Rule.
+Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT/PE, PERC, sPESI, Hestia, San Francisco Syncope Rule, NEWS2, qSOFA, şok indeksi, CHA₂DS₂-VASc, HAS-BLED, AIR, Alvarado, BISAP, Canadian C-Spine, NEXUS, Canadian CT Head Rule, Ottawa ayak/ayak bileği, Modifiye Centor, GKS, düzeltilmiş sodyum, anyon açığı, düzeltilmiş kalsiyum, osmolalite/osmolal açık, QTc ve ideal vücut ağırlığı.
 
 ## Uyarı
 
