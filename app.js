@@ -1,21 +1,21 @@
 const $ = (s) => document.querySelector(s);
 
 const categories = [
-  {id:'gis', title:'GİS Kanama', subtitle:'Üst GİS kanaması', icon:'G', description:'Üst gastrointestinal sistem kanamasında erken risk değerlendirmesi.', scores:['gbs']},
-  {id:'aks', title:'AKS', subtitle:'Göğüs ağrısı', icon:'♥', description:'Akut koroner sendrom ve göğüs ağrısında risk sınıflaması.', scores:['timi','heart','grace']},
-  {id:'tia', title:'TİA', subtitle:'Erken inme riski', icon:'A', description:'Geçici iskemik atak sonrası erken dönem inme riski.', scores:['abcd2']},
-  {id:'pnomoni', title:'Pnömoni', subtitle:'CAP ciddiyeti', icon:'P', description:'Toplum kökenli pnömonide mortalite ve yatış risk değerlendirmesi.', scores:['curb65','psi']},
-  {id:'dvt', title:'DVT', subtitle:'Klinik olasılık', icon:'D', description:'Derin ven trombozu için klinik ön test olasılığı.', scores:['wellsDvt']},
-  {id:'pe', title:'PE', subtitle:'Tanı ve yönetim', icon:'E', description:'Pulmoner embolide tanı, mortalite ve ayaktan tedavi uygunluğu.', scores:['wellsPe','perc','spesi','hestia']},
-  {id:'senkop', title:'Senkop', subtitle:'Ciddi sonuç riski', icon:'S', description:'Senkopta kısa dönem ciddi sonuç risk taraması.', scores:['sfsr']}
-  ,{id:'sepsis', title:'Sepsis', subtitle:'Erken kötüleşme', icon:'!', description:'Enfeksiyon şüphesinde fizyolojik kötüleşme ve mortalite riski.', scores:['news2','qsofa','shockIndex']}
-  ,{id:'af', title:'Atriyal Fibrilasyon', subtitle:'İnme ve kanama', icon:'AF', description:'Atriyal fibrilasyonda tromboemboli ve kanama risk değerlendirmesi.', scores:['chadsvasc','hasbled']}
-  ,{id:'abdomen', title:'Karın Ağrısı', subtitle:'Apandisit ve pankreatit', icon:'K', description:'Akut apandisit olasılığı ve pankreatit ciddiyet değerlendirmesi.', scores:['air','alvarado','bisap']}
-  ,{id:'travma', title:'Travma', subtitle:'Görüntüleme kuralları', icon:'T', description:'Servikal omurga ve minör kafa travmasında görüntüleme karar desteği.', scores:['canadianCspine','nexus','canadianHead']}
-  ,{id:'ortho', title:'Ayak–Ayak Bileği', subtitle:'Ottawa kuralları', icon:'O', description:'Akut ayak ve ayak bileği travmasında grafi gerekliliği.', scores:['ottawaAnkle','ottawaFoot']}
-  ,{id:'usye', title:'ÜSYE', subtitle:'Streptokok farenjiti', icon:'Ü', description:'Akut farenjitte Grup A streptokok olasılığı.', scores:['centor']}
-  ,{id:'neuro', title:'Bilinç', subtitle:'Glasgow Koma Skalası', icon:'G', description:'Göz, sözel ve motor yanıt üzerinden bilinç düzeyi değerlendirmesi.', scores:['gcs']}
-  ,{id:'quick', title:'Hızlı Hesaplamalar', subtitle:'Laboratuvar ve dozlama', icon:'=', description:'Acil serviste sık kullanılan laboratuvar ve fizyoloji hesaplamaları.', scores:['correctedNa','anionGap','correctedCa','osmolality','qtc','ibw']}
+  {id:'gis', title:'GİS Kanama', subtitle:'Üst GİS kanaması', icon:'droplet', description:'Üst gastrointestinal sistem kanamasında erken risk değerlendirmesi.', scores:['gbs']},
+  {id:'aks', title:'AKS', subtitle:'Göğüs ağrısı', icon:'heart-pulse', description:'Akut koroner sendrom ve göğüs ağrısında risk sınıflaması.', scores:['timi','heart','grace']},
+  {id:'tia', title:'TİA', subtitle:'Erken inme riski', icon:'brain', description:'Geçici iskemik atak sonrası erken dönem inme riski.', scores:['abcd2']},
+  {id:'pnomoni', title:'Pnömoni', subtitle:'CAP ciddiyeti', icon:'wind', description:'Toplum kökenli pnömonide mortalite ve yatış risk değerlendirmesi.', scores:['curb65','psi']},
+  {id:'dvt', title:'DVT', subtitle:'Klinik olasılık', icon:'activity', description:'Derin ven trombozu için klinik ön test olasılığı.', scores:['wellsDvt']},
+  {id:'pe', title:'PE', subtitle:'Tanı ve yönetim', icon:'scan-heart', description:'Pulmoner embolide tanı, mortalite ve ayaktan tedavi uygunluğu.', scores:['wellsPe','perc','spesi','hestia']},
+  {id:'senkop', title:'Senkop', subtitle:'Ciddi sonuç riski', icon:'person-standing', description:'Senkopta kısa dönem ciddi sonuç risk taraması.', scores:['sfsr']}
+  ,{id:'sepsis', title:'Sepsis', subtitle:'Erken kötüleşme', icon:'thermometer', description:'Enfeksiyon şüphesinde fizyolojik kötüleşme ve mortalite riski.', scores:['news2','qsofa','shockIndex']}
+  ,{id:'af', title:'Atriyal Fibrilasyon', subtitle:'İnme ve kanama', icon:'heart-pulse', description:'Atriyal fibrilasyonda tromboemboli ve kanama risk değerlendirmesi.', scores:['chadsvasc','hasbled']}
+  ,{id:'abdomen', title:'Karın Ağrısı', subtitle:'Apandisit ve pankreatit', icon:'circle-dot', description:'Akut apandisit olasılığı ve pankreatit ciddiyet değerlendirmesi.', scores:['air','alvarado','bisap']}
+  ,{id:'travma', title:'Travma', subtitle:'Görüntüleme kuralları', icon:'ambulance', description:'Servikal omurga ve minör kafa travmasında görüntüleme karar desteği.', scores:['canadianCspine','nexus','canadianHead']}
+  ,{id:'ortho', title:'Ayak–Ayak Bileği', subtitle:'Ottawa kuralları', icon:'footprints', description:'Akut ayak ve ayak bileği travmasında grafi gerekliliği.', scores:['ottawaAnkle','ottawaFoot']}
+  ,{id:'usye', title:'ÜSYE', subtitle:'Streptokok farenjiti', icon:'stethoscope', description:'Akut farenjitte Grup A streptokok olasılığı.', scores:['centor']}
+  ,{id:'neuro', title:'Bilinç', subtitle:'Glasgow Koma Skalası', icon:'brain', description:'Göz, sözel ve motor yanıt üzerinden bilinç düzeyi değerlendirmesi.', scores:['gcs']}
+  ,{id:'quick', title:'Hızlı Hesaplamalar', subtitle:'Laboratuvar ve dozlama', icon:'calculator', description:'Acil serviste sık kullanılan laboratuvar ve fizyoloji hesaplamaları.', scores:['correctedNa','anionGap','correctedCa','osmolality','qtc','ibw']}
 ];
 
 const yes = (id,label,help='',points=1) => ({type:'toggle',id,label,help,points});
@@ -108,7 +108,10 @@ const views={home:$('#homeView'),category:$('#categoryView'),calculator:$('#calc
 
 function showView(name){Object.entries(views).forEach(([k,v])=>v.classList.toggle('is-hidden',k!==name));$('#backButton').classList.toggle('is-hidden',name==='home');$('#resetButton').classList.toggle('is-hidden',name!=='calculator');window.scrollTo({top:0,behavior:'instant'});}
 
-function renderHome(){const grid=$('#categoryGrid');grid.innerHTML='';categories.forEach(c=>{const b=document.createElement('button');b.type='button';b.className='category-card';b.innerHTML=`<span class="category-icon">${c.icon}</span><span><strong>${c.title}</strong><small>${c.subtitle}</small></span>`;b.onclick=()=>openCategory(c.id);grid.appendChild(b)});showView('home')}
+function normalizeSearch(value){return value.toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ı/g,'i')}
+function categorySearchText(c){const scoreText=c.scores.flatMap(id=>[scores[id].title,scores[id].short,scores[id].description]).join(' ');return normalizeSearch(`${c.title} ${c.subtitle} ${c.description} ${scoreText}`)}
+function renderCategories(query=''){const grid=$('#categoryGrid'),empty=$('#searchEmpty'),status=$('#searchStatus'),clear=$('#clearSearch'),term=normalizeSearch(query.trim());grid.innerHTML='';const ordered=[...categories].sort((a,b)=>a.title.localeCompare(b.title,'tr-TR',{sensitivity:'base'}));const visible=term?ordered.filter(c=>categorySearchText(c).includes(term)):ordered;visible.forEach((c,index)=>{const matchingScores=term?c.scores.filter(id=>normalizeSearch(`${scores[id].title} ${scores[id].short} ${scores[id].description}`).includes(term)):[];const detail=matchingScores.length?matchingScores.map(id=>scores[id].short).join(' · '):c.subtitle;const b=document.createElement('button');b.type='button';b.className=`category-card tone-${index%8}`;b.innerHTML=`<span class="category-icon"><i data-lucide="${c.icon}" aria-hidden="true"></i></span><span><strong>${c.title}</strong><small>${detail}</small></span>`;b.onclick=()=>openCategory(c.id);grid.appendChild(b)});empty.classList.toggle('is-hidden',visible.length!==0);clear.classList.toggle('is-hidden',!query);status.textContent=term?`${visible.length} kategori bulundu`:'';if(window.lucide)lucide.createIcons({attrs:{'stroke-width':2.2}})}
+function renderHome(){renderCategories($('#categorySearch').value);showView('home')}
 
 function openCategory(id){currentCategory=categories.find(c=>c.id===id);$('#categoryTitle').textContent=currentCategory.title;$('#categoryDescription').textContent=currentCategory.description;const grid=$('#scoreGrid');grid.innerHTML='';currentCategory.scores.forEach(id=>{const s=scores[id],b=document.createElement('button');b.type='button';b.className='score-card';b.innerHTML=`<span><strong>${s.title}</strong><small>${s.description}</small></span><b>›</b>`;b.onclick=()=>openCalculator(id);grid.appendChild(b)});showView('category')}
 
@@ -124,5 +127,7 @@ function resetResult(){const card=$('#resultCard');card.className='result-card';
 $('#backButton').onclick=()=>{if(!views.calculator.classList.contains('is-hidden'))openCategory(currentCategory.id);else renderHome()};
 $('#resetButton').onclick=()=>{$('#calculatorForm').reset();$('#calculatorForm').querySelectorAll('.invalid').forEach(e=>e.classList.remove('invalid'));resetResult()};
 $('.brand').onclick=e=>{e.preventDefault();renderHome()};
+$('#categorySearch').addEventListener('input',e=>renderCategories(e.target.value));
+$('#clearSearch').onclick=()=>{const input=$('#categorySearch');input.value='';renderCategories();input.focus()};
 window.addEventListener('popstate',renderHome);
 renderHome();

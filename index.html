@@ -25,7 +25,20 @@
       <h1>Hangi klinik tablo?</h1>
       <p>Skoru seçin, gerekli bilgileri girin, sonucu anında görün.</p>
     </section>
+    <section class="search-section" aria-label="Skor arama">
+      <label class="search-box" for="categorySearch">
+        <i data-lucide="search" aria-hidden="true"></i>
+        <input id="categorySearch" type="search" placeholder="Skor veya kategori ara…" autocomplete="off" spellcheck="false">
+        <button id="clearSearch" class="search-clear is-hidden" type="button" aria-label="Aramayı temizle"><i data-lucide="x" aria-hidden="true"></i></button>
+      </label>
+      <p id="searchStatus" class="search-status" aria-live="polite"></p>
+    </section>
     <section id="categoryGrid" class="category-grid" aria-label="Klinik kategoriler"></section>
+    <div id="searchEmpty" class="search-empty is-hidden" role="status">
+      <i data-lucide="search-x" aria-hidden="true"></i>
+      <strong>Eşleşen sonuç bulunamadı</strong>
+      <span>Başka bir skor veya kategori adı deneyin.</span>
+    </div>
     <aside class="notice"><span>i</span><p>Karar destek aracıdır. Klinik değerlendirme ve güncel yerel protokollerin yerine geçmez.</p></aside>
   </main>
 
@@ -56,6 +69,7 @@
     <fieldset class="choice-field"><legend></legend><small></small><div class="segmented"></div></fieldset>
   </template>
 
+  <script src="vendor/lucide.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
