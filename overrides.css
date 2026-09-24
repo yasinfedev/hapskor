@@ -66,6 +66,21 @@
 .search-empty strong { color: var(--navy); }
 .search-empty span { font-size: .82rem; }
 
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: .45rem;
+  padding: .16rem .38rem;
+  border: 1px solid rgba(18,60,86,.18);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--blue);
+  font-size: .58rem;
+  font-weight: 850;
+  letter-spacing: .04em;
+  vertical-align: .22rem;
+}
+
 .result-details {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
