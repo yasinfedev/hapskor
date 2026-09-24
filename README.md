@@ -2,6 +2,10 @@
 
 Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan klinik skor ve başlangıç mekanik ventilasyon karar destek aracı.
 
+## Sürüm 7
+
+Olay ve başvuru saatini dikkate alan klasik Parkland yanık sıvı hesabı; pediatrik izotonik yükleme ve Holliday–Segar/4-2-1 idame hesabı; dopamin, dobutamin, noradrenalin, epinefrin ve nitrogliserin infüzyon hesaplayıcıları eklendi. İnfüzyonlar Türkiye’de kullanılan ampul/flakon içerikleri, kullanıcı tarafından girilen ampul miktarı ve ilaç dahil son hacim üzerinden mL/sa, mcg/kg/dk, mcg/dk ve ilgili mg eşdeğerlerini birlikte gösterir.
+
 ## Sürüm 6
 
 Mekanik Ventilasyon kategorisi eklendi. Erişkin hipoksemik ve hiperkarbik solunum yetmezliği, erişkin travma, post-CPR/ROSC ve pediatrik travma için klinik duruma göre başlangıç modu, tidal volüm, solunum sayısı, PEEP, FiO₂, I:E ve izlem hedefleri üretir. Erişkin tidal volümleri Devine ideal/öngörülen vücut ağırlığı üzerinden hesaplanır; pediatrik akış ideal/kuru ventilatör hesaplama ağırlığını kullanır.
@@ -26,7 +30,7 @@ Blatchford ve CURB-65 hesaplayıcıları hastane laboratuvar pratiğine uygun ol
 
 ## İçerik
 
-Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT/PE, PERC, sPESI, Hestia, San Francisco Syncope Rule, NEWS2, qSOFA, şok indeksi, CHA₂DS₂-VASc, HAS-BLED, AIR, Alvarado, BISAP, Canadian C-Spine, NEXUS, Canadian CT Head Rule, Ottawa ayak/ayak bileği, Modifiye Centor, GKS, düzeltilmiş sodyum, anyon açığı, düzeltilmiş kalsiyum, osmolalite/osmolal açık, QTc, ideal vücut ağırlığı ve beş mekanik ventilasyon başlangıç modülü.
+Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT/PE, PERC, sPESI, Hestia, San Francisco Syncope Rule, NEWS2, qSOFA, şok indeksi, CHA₂DS₂-VASc, HAS-BLED, AIR, Alvarado, BISAP, Canadian C-Spine, NEXUS, Canadian CT Head Rule, Ottawa ayak/ayak bileği, Modifiye Centor, GKS, düzeltilmiş sodyum, anyon açığı, düzeltilmiş kalsiyum, osmolalite/osmolal açık, QTc, ideal vücut ağırlığı, beş mekanik ventilasyon başlangıç modülü, Parkland yanık sıvısı, pediatrik yükleme/idame sıvısı ve beş erişkin infüzyon hesaplayıcısı.
 
 ## Uyarı
 

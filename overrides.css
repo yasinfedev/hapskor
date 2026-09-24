@@ -75,6 +75,18 @@
 
 .result-card.has-details { position: static; }
 
+.datetime-field .number-wrap input {
+  width: 188px;
+  text-align: left;
+  font-size: .82rem;
+}
+
+@media (max-width: 430px) {
+  .datetime-field { align-items: flex-start; flex-direction: column; }
+  .datetime-field .number-wrap,
+  .datetime-field .number-wrap input { width: 100%; }
+}
+
 .result-details > div {
   min-width: 0;
   padding: .65rem .7rem;
