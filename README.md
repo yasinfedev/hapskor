@@ -2,6 +2,10 @@
 
 Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan klinik skor ve başlangıç mekanik ventilasyon karar destek aracı.
 
+## Sürüm 9
+
+Logo sürüm rozeti v9.0 olarak güncellendi. Footer'a Hakkında, Kullanım Şartları, KVKK/Gizlilik Politikası, Çerez Politikası ve İletişim bağlantıları eklendi. Beş sayfa Hapskor temasıyla uyumlu, mobil öncelikli ayrı HTML dosyaları olarak hazırlandı. Geliştirici kredisi Uzm. Dr. Yasin Yıldız ve Uzm. Dr. Mine Kayacı Yıldız olarak güncellendi.
+
 ## Sürüm 8
 
 Logoya v8.0 sürüm rozeti eklendi. Travma bölümüne Injury Severity Score (ISS) ve yaşa göre dallanan PECARN pediatrik beyin BT kuralı; ekstremite travmasına Ottawa Diz Kuralı eklendi. Acil İlaçlar kategorisinde CoFact hedef INR tablosu, Cetor doz şeması, Ninax ve Brevibloc infüzyon hesapları ile parasetamol intoksikasyonunda klasik 21 saatlik IV ve 72 saatlik oral N-asetilsistein rejimleri bulunur.

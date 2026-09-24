@@ -137,6 +137,17 @@
   font-weight: 750;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .45rem .85rem;
+  margin: .2rem 0 .8rem;
+}
+
+.footer-links a { font-size: .76rem; }
+.footer-links a[aria-current="page"] { color: var(--navy); text-decoration-thickness: 2px; }
+
 .app-footer a {
   color: var(--blue);
   font-weight: 700;
@@ -146,6 +157,65 @@
 
 @media (min-width: 620px) {
   .app-footer { padding-right: 1.5rem; padding-left: 1.5rem; }
+}
+
+.legal-header .icon-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.info-page {
+  width: min(100%,760px);
+  margin: auto;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.info-hero {
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(18,60,86,.11);
+  border-radius: 22px;
+  background: linear-gradient(135deg,#e8f6f7,#fff5ed);
+  box-shadow: 0 10px 30px rgba(18,60,86,.07);
+}
+
+.info-hero h1 {
+  margin: .15rem 0 .55rem;
+  color: var(--navy-2);
+  font-size: clamp(1.75rem,7vw,2.5rem);
+  line-height: 1.08;
+  letter-spacing: -.04em;
+}
+
+.info-hero p:last-child { margin: 0; color: var(--muted); line-height: 1.6; }
+
+.info-card {
+  margin: .75rem 0;
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(18,60,86,.05);
+}
+
+.info-card h2 { margin: 0 0 .65rem; color: var(--navy); font-size: 1.08rem; }
+.info-card h3 { margin: 1rem 0 .4rem; color: var(--navy); font-size: .96rem; }
+.info-card p,.info-card li { color: #405966; font-size: .94rem; line-height: 1.65; }
+.info-card p { margin: .45rem 0; }
+.info-card ul { margin: .45rem 0; padding-left: 1.2rem; }
+.info-card a { color: var(--blue); font-weight: 700; }
+
+.info-grid { display: grid; gap: .75rem; }
+.person-card { border-left: 4px solid var(--coral); }
+.info-callout { border-color: #f0d6c9; background: #fff8f4; }
+.info-callout strong { color: var(--red); }
+.policy-date { margin-top: .55rem!important; font-size: .78rem!important; font-weight: 700; }
+.back-home { display: inline-flex; margin-top: 1rem; color: var(--blue); font-weight: 750; text-decoration: none; }
+
+@media (min-width: 620px) {
+  .info-page { padding: 2rem 1.5rem 2.5rem; }
+  .info-grid.two { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
 
 @media (min-width: 620px) {
