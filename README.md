@@ -1,6 +1,10 @@
 # hapskor
 
-Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan klinik skor hesaplayıcısı.
+Acil servis günlük pratiği için mobil öncelikli, bağımsız çalışan klinik skor ve başlangıç mekanik ventilasyon karar destek aracı.
+
+## Sürüm 6
+
+Mekanik Ventilasyon kategorisi eklendi. Erişkin hipoksemik ve hiperkarbik solunum yetmezliği, erişkin travma, post-CPR/ROSC ve pediatrik travma için klinik duruma göre başlangıç modu, tidal volüm, solunum sayısı, PEEP, FiO₂, I:E ve izlem hedefleri üretir. Erişkin tidal volümleri Devine ideal/öngörülen vücut ağırlığı üzerinden hesaplanır; pediatrik akış ideal/kuru ventilatör hesaplama ağırlığını kullanır.
 
 ## Sürüm 5
 
@@ -22,7 +26,7 @@ Blatchford ve CURB-65 hesaplayıcıları hastane laboratuvar pratiğine uygun ol
 
 ## İçerik
 
-Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT/PE, PERC, sPESI, Hestia, San Francisco Syncope Rule, NEWS2, qSOFA, şok indeksi, CHA₂DS₂-VASc, HAS-BLED, AIR, Alvarado, BISAP, Canadian C-Spine, NEXUS, Canadian CT Head Rule, Ottawa ayak/ayak bileği, Modifiye Centor, GKS, düzeltilmiş sodyum, anyon açığı, düzeltilmiş kalsiyum, osmolalite/osmolal açık, QTc ve ideal vücut ağırlığı.
+Glasgow-Blatchford, TIMI UA/NSTEMI, HEART, GRACE, ABCD², CURB-65, PSI/PORT, Wells DVT/PE, PERC, sPESI, Hestia, San Francisco Syncope Rule, NEWS2, qSOFA, şok indeksi, CHA₂DS₂-VASc, HAS-BLED, AIR, Alvarado, BISAP, Canadian C-Spine, NEXUS, Canadian CT Head Rule, Ottawa ayak/ayak bileği, Modifiye Centor, GKS, düzeltilmiş sodyum, anyon açığı, düzeltilmiş kalsiyum, osmolalite/osmolal açık, QTc, ideal vücut ağırlığı ve beş mekanik ventilasyon başlangıç modülü.
 
 ## Uyarı
 
